@@ -1,0 +1,43 @@
+body {
+	background-color: tan;
+	font-family:Calibri;
+}
+input[type="Button"]{
+    font-size:14px;
+	width:180px;
+	height: 60px;
+}
+input[type="number"]{
+    font-size:18px;
+    text-align:center;
+ 	width:180px;
+ 	height: 60px;
+ }
+
+.userInfoContainer{
+    font-size: 18px;
+}
+
+.tableHeader{
+    font-size:24px;
+    text-decoration:underline;
+}
+
+.userInfo{
+text-align:center;
+    width:200px;
+}
+
+.userInfoContainer:hover{
+    background-color:lightgray;
+    cursor:pointer;
+}
+
+.imgBack{
+    width:60px;
+    height:60px;
+}
+
+.inputLabel{
+    font-size:18px;
+}

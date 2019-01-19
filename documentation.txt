@@ -1,0 +1,43 @@
+This is the Capgemini - Blue Harvest Backend Code Assessment for Emre Acar.
+
+/////////////
+How to run //
+////////////
+
+1) Make sure that you have already installed
+-Java 8
+-Maven
+-IntelliJ Idea (Optional)
+
+2) Import the project on IntelliJ Idea
+3) Wait for Maven to resolve dependencies. Accept "Auto Import Maven Projects" if prompted.
+3) Create a new Run Configuration from top menu
+	3.1) "Main class" should be set as "com.capgemini.assignment.AssignmentApplication".
+	3.2)  Remaining areas can be left default.
+4) Run the application with the configuration you have just set.
+5) Open the browser and type localhost, press enter.
+
+/////////
+Usage //
+///////
+
+On the main page, you'll need to press "Initialize Data" first to create some dummy accounts. Then you can see all customers on the main page, and click on any of them to see their details and make some actions.
+
+When you click to a customer, you'll see customer's details, which satisfies the following criteria of the assignment:
+"Another Endpoint will output the user information showing Name, Surname, balance, and
+transactions of the accounts."
+
+Under "Open New Account" title, you can click on "Create Account" to create an empty account on the selected customer, or you can set Initial Credit textbox before you click the button to set an initial credit of the account you'll about to create, which satisfies the following criterias of the assignment:
+"The API will expose an endpoint which accepts the user information (customerID,
+initialCredit).Once the endpoint is called, a new account will be opened connected to the user whose ID
+is customerID.
+Also, if initialCredit is not 0, a transaction will be sent to the new account."
+
+////////////////////
+Additional Notes //
+//////////////////
+
+Unit tests are located under \src\test\java\com\capgemini\assignment\
+This application is written with Java, Spring MVC and Spring Boot.
+
+
