@@ -3,7 +3,6 @@ Account creation API made for Blue Harvest
 
 Test Description
 
-Blue Harvest Backend Code Assessment
 The assessment consists of an API to be used for opening secondary current accounts of
 already existent customers.
 The API will expose an endpoint which accepts the user information (customerID,
